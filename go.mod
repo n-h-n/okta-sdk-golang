@@ -1,4 +1,4 @@
-module github.com/okta/okta-sdk-golang/v2
+module github.com/n-h-n/okta-sdk-golang/v2
 
 go 1.19
 
