@@ -24,7 +24,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/okta/okta-sdk-golang/v2/okta/query"
+	"github.com/n-h-n/okta-sdk-golang/v2/okta/query"
 )
 
 type Policies interface {

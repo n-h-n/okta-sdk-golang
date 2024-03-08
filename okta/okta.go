@@ -28,7 +28,7 @@ import (
 	"runtime"
 
 	"github.com/kelseyhightower/envconfig"
-	"github.com/okta/okta-sdk-golang/v2/okta/cache"
+	"github.com/n-h-n/okta-sdk-golang/v2/okta/cache"
 	"gopkg.in/yaml.v3"
 )
 

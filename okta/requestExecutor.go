@@ -37,7 +37,7 @@ import (
 	"github.com/cenkalti/backoff/v4"
 	"github.com/go-jose/go-jose/v3"
 	"github.com/go-jose/go-jose/v3/jwt"
-	"github.com/okta/okta-sdk-golang/v2/okta/cache"
+	"github.com/n-h-n/okta-sdk-golang/v2/okta/cache"
 	goCache "github.com/patrickmn/go-cache"
 )
 

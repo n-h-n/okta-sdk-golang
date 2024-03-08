@@ -20,7 +20,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/okta/okta-sdk-golang/v2/tests"
+	"github.com/n-h-n/okta-sdk-golang/v2/tests"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

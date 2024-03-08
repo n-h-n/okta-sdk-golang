@@ -438,7 +438,7 @@ Release of openapispec 2.10.0
 - `WebAuthnUserFactorProfile`
 
 ### Bug Fixes
-- Updates `okta/config.go` to use `github.com/okta/okta-sdk-golang/v2/okta/cache` (#167, Resolves #149)
+- Updates `okta/config.go` to use `github.com/n-h-n/okta-sdk-golang/v2/okta/cache` (#167, Resolves #149)
 - Updates `okta/config.go` to use `int64` for `ConnectionTimeout` and `RequestTimeout` (#166)
 - `ListApplicationTargetsForApplicationAdministratorRoleForGroup` now returns correct `[]CatalogApplication`
 - `ListApplicationTargetsForApplicationAdministratorRoleForUser` now returns correct `[]CatalogApplication`

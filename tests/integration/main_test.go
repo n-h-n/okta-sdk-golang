@@ -9,9 +9,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/okta/okta-sdk-golang/v2/okta"
-	"github.com/okta/okta-sdk-golang/v2/okta/query"
-	"github.com/okta/okta-sdk-golang/v2/tests"
+	"github.com/n-h-n/okta-sdk-golang/v2/okta"
+	"github.com/n-h-n/okta-sdk-golang/v2/okta/query"
+	"github.com/n-h-n/okta-sdk-golang/v2/tests"
 )
 
 func init() {

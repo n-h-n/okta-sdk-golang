@@ -23,7 +23,7 @@ import (
 	"testing"
 
 	"github.com/jarcoal/httpmock"
-	"github.com/okta/okta-sdk-golang/v2/okta"
+	"github.com/n-h-n/okta-sdk-golang/v2/okta"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

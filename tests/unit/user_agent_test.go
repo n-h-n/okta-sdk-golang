@@ -23,8 +23,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/okta/okta-sdk-golang/v2/okta"
-	"github.com/okta/okta-sdk-golang/v2/tests"
+	"github.com/n-h-n/okta-sdk-golang/v2/okta"
+	"github.com/n-h-n/okta-sdk-golang/v2/tests"
 )
 
 func TestUserAgent(t *testing.T) {

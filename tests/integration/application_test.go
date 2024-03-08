@@ -24,14 +24,14 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/okta/okta-sdk-golang/v2/okta/query"
+	"github.com/n-h-n/okta-sdk-golang/v2/okta/query"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/okta/okta-sdk-golang/v2/okta"
+	"github.com/n-h-n/okta-sdk-golang/v2/okta"
 
-	"github.com/okta/okta-sdk-golang/v2/tests"
+	"github.com/n-h-n/okta-sdk-golang/v2/tests"
 )
 
 func TestCanGetApplicationByID(t *testing.T) {

@@ -177,7 +177,7 @@ function getImports(object) {
   if (object.operations !== undefined) {
     for (let operation in object.operations) {
       if (object.operations[operation].queryParams.length) {
-        imports.push("github.com/okta/okta-sdk-golang/v2/okta/query")
+        imports.push("github.com/n-h-n/okta-sdk-golang/v2/okta/query")
         imports.push("context");
       }
 
@@ -194,7 +194,7 @@ function getImports(object) {
     for (let method of object.model.methods) {
 
       if (method.operation.queryParams.length) {
-        imports.push("github.com/okta/okta-sdk-golang/v2/okta/query")
+        imports.push("github.com/n-h-n/okta-sdk-golang/v2/okta/query")
       }
       imports.push("fmt");
       imports.push("context");
@@ -211,7 +211,7 @@ function getImports(object) {
   if (object.model.crud !== undefined) {
     for (let method of object.model.crud) {
       if (method.operation.queryParams.length) {
-        imports.push("github.com/okta/okta-sdk-golang/v2/okta/query");
+        imports.push("github.com/n-h-n/okta-sdk-golang/v2/okta/query");
       }
       imports.push("fmt");
       imports.push("context");
